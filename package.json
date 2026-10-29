@@ -1,0 +1,11 @@
+{
+  "name": "contenttrue-japanese-text-preflight-mcp",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Local Japanese text length and chunk checks before Content True analysis",
+  "homepage": "https://contenttrue.org/",
+  "scripts": { "start": "node index.mjs", "test": "node --test test.mjs" },
+  "engines": { "node": ">=20.18.1" },
+  "dependencies": { "@modelcontextprotocol/server": "^2.0.0", "zod": "^4.0.0" },
+  "devDependencies": { "@modelcontextprotocol/client": "^2.4.0" }
+}
